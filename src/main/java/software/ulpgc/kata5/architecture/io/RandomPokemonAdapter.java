@@ -1,10 +1,10 @@
-package software.ulpgc.architecture.io;
+package software.ulpgc.kata5.architecture.io;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
-import software.ulpgc.architecture.io.pojos.RandomPokemonGetResponse;
-import software.ulpgc.architecture.model.Ability;
-import software.ulpgc.architecture.model.Pokemon;
+import software.ulpgc.kata5.architecture.io.pojos.RandomPokemonGetResponse;
+import software.ulpgc.kata5.architecture.model.Ability;
+import software.ulpgc.kata5.architecture.model.Pokemon;
 
 import java.io.IOException;
 import java.util.ArrayList;

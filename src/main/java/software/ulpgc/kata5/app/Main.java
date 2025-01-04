@@ -1,10 +1,10 @@
-package software.ulpgc.app;
+package software.ulpgc.kata5.app;
 
-import software.ulpgc.architecture.control.ToggleCommand;
-import software.ulpgc.architecture.io.PokemonLoader;
-import software.ulpgc.architecture.io.RandomPokemonAdapter;
-import software.ulpgc.architecture.io.RandomPokemonDeserializer;
-import software.ulpgc.architecture.io.RandomPokemonReader;
+import software.ulpgc.kata5.architecture.control.ToggleCommand;
+import software.ulpgc.kata5.architecture.io.PokemonLoader;
+import software.ulpgc.kata5.architecture.io.RandomPokemonAdapter;
+import software.ulpgc.kata5.architecture.io.RandomPokemonDeserializer;
+import software.ulpgc.kata5.architecture.io.RandomPokemonReader;
 
 public class Main {
     public static void main(String[] args) {

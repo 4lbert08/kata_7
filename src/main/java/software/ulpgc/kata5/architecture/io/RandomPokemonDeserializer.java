@@ -1,7 +1,7 @@
-package software.ulpgc.architecture.io;
+package software.ulpgc.kata5.architecture.io;
 
 import com.google.gson.Gson;
-import software.ulpgc.architecture.io.pojos.RandomPokemonGetResponse;
+import software.ulpgc.kata5.architecture.io.pojos.RandomPokemonGetResponse;
 
 public class RandomPokemonDeserializer implements PokemonDeserializer{
     @Override

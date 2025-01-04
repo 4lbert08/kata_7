@@ -1,7 +1,7 @@
-package software.ulpgc.app;
+package software.ulpgc.kata5.app;
 
-import software.ulpgc.architecture.model.Pokemon;
-import software.ulpgc.architecture.view.PokemonDisplay;
+import software.ulpgc.kata5.architecture.model.Pokemon;
+import software.ulpgc.kata5.architecture.view.PokemonDisplay;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -21,7 +21,7 @@ public class SwingPokemonDisplay extends JPanel implements PokemonDisplay {
         removeAll();
         add(getSpritePanel(pokemon.normalSprite(), pokemon.name() + " (Normal)"));
         add(getSpritePanel(pokemon.shinySprite(), pokemon.name() + " (Shiny)"));
-        add(new JLabel("Height: " + pokemon.height() + " Weight: " + pokemon.weight() , SwingConstants.CENTER));
+        add(new JLabel("Height: " + pokemon.height() + " Weight: " + pokemon.weight() + "lb" , SwingConstants.CENTER));
         addAbilitiesPanel(pokemon);
         revalidate();
         repaint();

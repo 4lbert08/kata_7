@@ -1,6 +1,6 @@
-package software.ulpgc.architecture.io;
+package software.ulpgc.kata5.architecture.io;
 
-import software.ulpgc.architecture.model.Pokemon;
+import software.ulpgc.kata5.architecture.model.Pokemon;
 
 public class PokemonLoader {
     private final PokemonReader reader;

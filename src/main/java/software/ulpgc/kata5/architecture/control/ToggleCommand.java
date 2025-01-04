@@ -1,8 +1,8 @@
-package software.ulpgc.architecture.control;
+package software.ulpgc.kata5.architecture.control;
 
-import software.ulpgc.architecture.io.PokemonLoader;
-import software.ulpgc.architecture.model.Pokemon;
-import software.ulpgc.architecture.view.PokemonDisplay;
+import software.ulpgc.kata5.architecture.io.PokemonLoader;
+import software.ulpgc.kata5.architecture.model.Pokemon;
+import software.ulpgc.kata5.architecture.view.PokemonDisplay;
 
 public class ToggleCommand implements Command{
     private final PokemonLoader loader;
